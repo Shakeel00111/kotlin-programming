@@ -1,0 +1,4 @@
+package Kotlin
+
+class variables {
+}
