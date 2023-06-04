@@ -1,3 +1,5 @@
+package Kotlin
+
 fun Int.add(num:Int):Int{
     return this + num
 }
@@ -21,3 +23,5 @@ fun main(){
 // all extension functions are infix function
 // all infix function are extinction function
 // infix function is an single parameter function
+
+
