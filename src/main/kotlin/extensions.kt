@@ -1,5 +1,3 @@
-package Kotlin
-
 fun Int.add(num:Int):Int{
     return this + num
 }
