@@ -5,14 +5,14 @@ fun main() {
 
     if (num1 >= 0) {
 
-        println("$num1 is +")
+        println("$num1 is +ve")
 
     } else{
 
-        println("$num1 is -")
+        println("$num1 is -ve")
 
     }
-
+   // o/p: 100 is +ve
 
     if(num1 > num2 && num1> num3){
         println("$num1 is the greater")
@@ -22,6 +22,7 @@ fun main() {
 
         println("$num3 is the greater")
     }
+    // o/p: 300 is the greater
 
     //Nested if else
     if(num1>num2){
@@ -52,7 +53,7 @@ fun main() {
         println("$num3 is the greatest")
 
     }
-
+    // o/p: 300 is the greatest
 }
 
 

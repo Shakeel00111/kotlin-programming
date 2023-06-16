@@ -9,6 +9,9 @@ fun main() {
         }
         println(i)
     }
+    // o/p: 1
+    //      2
+    //      3
 
 
 
@@ -22,5 +25,8 @@ fun main() {
         println(i)
 
     }
-
+    // o/p: 1
+    //       2
+    //       3
+    //       5
 }
