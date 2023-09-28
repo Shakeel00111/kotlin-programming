@@ -53,8 +53,37 @@ fun main() {
         println("$num3 is the greatest")
 
     }
+
+
+        var result = callme(343.3243,234.3434)
+        print(result)
+
+
+
+        var name : String ="shakeel"
+        var name1 : String? ="shakeel"
+
+        if (name1 != null) {
+            name = name1?.length.toString()
+        }
+        else{
+            print(null)
+        }
+
+
+        var get =  "kadachuruchu"
+
+        print("$get")
+    }
+
+
+    fun callme(a:Double,b:Double) : Double {
+        return (a+b)/2
+    }
+
+
     // o/p: 300 is the greatest
-}
+
 
 
 

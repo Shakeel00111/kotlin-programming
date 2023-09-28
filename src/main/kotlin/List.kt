@@ -80,5 +80,33 @@ numbers1.removeAt(8)
 
 println(numbers1)
 // o/p : [1, 2, 3, 4, 5, 6, 2, 7, 9]
-}
+
+
+        val list :List<String> = listOf("Denis", "Frank", "Michael", "Garry")
+        val mixedTypeList: List<Any> = listOf( "Denis", 31, 5, "BDay", 70.5, "weighs", "Kg")
+
+
+        for (value in mixedTypeList) {
+
+
+
+
+            if (value is Int) {
+
+                println("Integer: '$value'")
+
+            } else if (value is Double) {
+
+                println("Double: '$value' ")
+
+            }else if (value is String) { println("String: '$value' of length ${ value.length}")
+
+            } else{
+                println("unknown type")
+
+            }
+        }
+    }
+
+
 
